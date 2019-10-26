@@ -4,7 +4,7 @@
   "description": "Behold My Awesome Project!",
   "author_name": "Andy Taylor",
   "domain_name": "example.com",
-  "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@{{ domain_name }}",
+  "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@{{ cookiecutter.domain_name.lower() }}",
   "version": "0.0.1",
   "open_source_license": "Not open source",
   "timezone": "UTC",
